@@ -1,0 +1,38 @@
+<resources>
+    <style name="Theme.DriveView" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ink</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Widget.DriveView.Previous" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="strokeColor">@color/ink</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minWidth">96dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.DriveView.CategoryLink" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="Widget.DriveView.Choice" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textSize">22sp</item>
+        <item name="cornerRadius">28dp</item>
+        <item name="strokeColor">@color/ink</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>

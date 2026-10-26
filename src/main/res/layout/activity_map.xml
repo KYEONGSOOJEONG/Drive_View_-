@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    android:padding="28dp">
+
+    <FrameLayout
+        android:id="@+id/mapViewport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screen_frame"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:focusable="true">
+
+        <FrameLayout
+            android:id="@+id/mapContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zoomInButton"
+            style="@style/Widget.DriveView.Previous"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:text="@string/zoom_in"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zoomOutButton"
+            style="@style/Widget.DriveView.Previous"
+            android:layout_width="72dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/zoom_out"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/previousButton"
+        style="@style/Widget.DriveView.Previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/previous" />
+</FrameLayout>

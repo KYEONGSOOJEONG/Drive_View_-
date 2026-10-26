@@ -1,0 +1,11 @@
+<resources>
+    <color name="ink">#111111</color>
+    <color name="paper">#FFFFFF</color>
+    <color name="photo_a">#F4F4F4</color>
+    <color name="photo_b">#E7EEF6</color>
+    <color name="photo_c">#F8EFE6</color>
+    <color name="pin">#111111</color>
+    <color name="here">#1565C0</color>
+    <color name="here_halo">#B3D4F5</color>
+    <color name="area_label">#8A8A8A</color>
+</resources>
